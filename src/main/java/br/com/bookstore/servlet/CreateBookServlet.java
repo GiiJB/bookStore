@@ -1,4 +1,9 @@
 package br.com.bookstore.servlet;
 
-public class CreateBookServlet {
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/create-book")
+public class CreateBookServlet extends HttpServlet {
+
 }
